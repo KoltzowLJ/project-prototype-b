@@ -11,29 +11,22 @@
    }
 ?>
 
-<header class="header">
-   <section class="flex">
-
-      <a href="../admin/dashboard.php" class="logo">Admin<span>Panel</span></a>
-
-      <nav class="navbar">
-         <a href="../admin/dashboard.php">Home</a>
-         <a href="../admin/products.php">Products</a>
-         <a href="../admin/placed_orders.php">Orders</a>
-         <a href="../admin/admin_accounts.php">Admins</a>
-         <a href="../admin/users_accounts.php">Users</a>
-         <a href="../admin/messages.php">Messages</a>
-      </nav>
-
-      <div class="icons">
-         <div id="user-btn" class="fas fa-user"></div>
-      </div>
-
-      <div class="profile">
-         <p>Admin 1</p>
-         <a href="../admin/update_profile.php" class="btn btn-primary">Update Profile</a>
-         <a href="../components/admin_logout.php" class="delete-btn" onclick="return confirm('logout from the website?');">Logout</a>
-      </div>
-
-   </section>
-</header>
+<!-- Admin Sidebar -->
+<aside class="sidebar">
+   <div class="logo-container">
+      <a href="dashboard.php" class="logo">Admin<span>Panel</span></a>
+   </div>
+   <nav class="sidebar-nav">
+      <a href="dashboard.php"><i class="fas fa-home"></i> Home</a>
+      <a href="products.php"><i class="fas fa-box"></i> Products</a>
+      <a href="placed_orders.php"><i class="fas fa-shopping-cart"></i> Orders</a>
+      <a href="admin_accounts.php"><i class="fas fa-user-shield"></i> Admins</a>
+      <a href="users_accounts.php"><i class="fas fa-users"></i> Users</a>
+      <a href="messages.php"><i class="fas fa-envelope"></i> Messages</a>
+   </nav>
+   <div class="profile">
+      <p>Admin 1</p>
+      <a href="update_profile.php" class="btn btn-secondary">Update Profile</a>
+      <a href="../components/admin_logout.php" class="btn btn-danger">Logout</a>
+   </div>
+</aside>

@@ -14,13 +14,12 @@
 </head>
 <body>
 
-<!-- Message Box -->
-<div class="message">
-   <span>Incorrect username or password!</span>
-   <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
-</div>
 
 <section class="form-container">
+   <div class="message">
+      <span>Incorrect username or password!</span>
+      <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
+   </div>
 
    <form action="" method="post">
       <h3>Login Now</h3>
