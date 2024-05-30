@@ -27,10 +27,10 @@
                <p class="order-date">Placed on: <span>2023-04-25</span></p>
             </div>
             <div class="order-body">
-               <p>Name: <span>Jane Smith</span></p>
-               <p>Email: <span>janesmith@example.com</span></p>
-               <p>Number: <span>+0987654321</span></p>
-               <p>Address: <span>456 Another St, Anycity, USA</span></p>
+               <p>Name: <span>Sarie Klarie</span></p>
+               <p>Email: <span>sarie.klarie@example.com</span></p>
+               <p>Number: <span>+27 12 345 6789</span></p>
+               <p>Address: <span>123 Lang Paal Street, Somehere, South Africa</span></p>
                <p>Payment Method: <span>PayPal</span></p>
                <p>Your Orders: <span>1 item</span></p>
                <p>Total Price: <span>R111.99</span></p>
@@ -45,11 +45,11 @@
                <p class="order-date">Placed on: <span>2023-04-25</span></p>
             </div>
             <div class="order-body">
-               <p>Name: <span>Jane Smith</span></p>
-               <p>Email: <span>janesmith@example.com</span></p>
-               <p>Number: <span>+0987654321</span></p>
-               <p>Address: <span>456 Another St, Anycity, USA</span></p>
-               <p>Payment Method: <span>PayPal</span></p>
+               <p>Name: <span>Pieter Sielie</span></p>
+               <p>Email: <span>pieter.sielie@example.com</span></p>
+               <p>Number: <span>+27 12 345 6789</span></p>
+               <p>Address: <span>123 Bok Kop Street, Woestyn, South Africa</span></p>
+               <p>Payment Method: <span>Credit Card</span></p>
                <p>Your Orders: <span>2 items</span></p>
                <p>Total Price: <span>R223.98</span></p>
                <p>Payment Status: <span class="status pending">Pending</span></p>

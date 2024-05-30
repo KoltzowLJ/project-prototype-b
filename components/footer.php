@@ -22,18 +22,18 @@
          <div class="box">
             <h3>Contact Us</h3>
             <ul>
-               <li><a href="tel:1234567890"><i class="fas fa-phone"></i> +123-456-7890</a></li>
+               <li><a href="tel:1234567890"><i class="fas fa-phone"></i> +27 12-345-6789</a></li>
                <li><a href="mailto:info@example.com"><i class="fas fa-envelope"></i> info@example.com</a></li>
-               <li><a href="https://goo.gl/maps/XxXxXxXxXxXxXxX"><i class="fas fa-map-marker-alt"></i> 123 Main St, City, Country</a></li>
+               <li><a href="https://goo.gl/maps/XxXxXxXxXxXxXxX"><i class="fas fa-map-marker-alt"></i> 123 Pietersiele Street, Johannesburg, South Africa</a></li>
             </ul>
          </div>
          <div class="box">
             <h3>Follow Us</h3>
             <div class="social-links">
-               <a href="#"><i class="fab fa-facebook-f"></i></a>
-               <a href="#"><i class="fab fa-twitter"></i></a>
-               <a href="#"><i class="fab fa-instagram"></i></a>
-               <a href="#"><i class="fab fa-linkedin"></i></a>
+               <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+               <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+               <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+               <a href="#"><i class="fab fa-linkedin"></i>LinkedIn</a>
             </div>
          </div>
       </div>

@@ -25,10 +25,10 @@
             <!-- Example Order 1 -->
             <div class="stat-card">
                <div class="order-info">
-                  <h3>John Doe</h3>
+                  <h3>Joe Roe</h3>
                   <p>Placed on: <span>2024-05-25</span></p>
-                  <p>Number: <span>1234567890</span></p>
-                  <p>Address: <span>123 Main St, City, Country</span></p>
+                  <p>Number: <span>+27 12 345 6789</span></p>
+                  <p>Address: <span>123 Where Street, There, South Africa</span></p>
                   <p>Total Products: <span>3</span></p>
                   <p>Total Price: <span>R335.97</span></p>
                   <p>Payment Method: <span>Credit Card</span></p>
@@ -50,10 +50,10 @@
             <!-- Example Order 2 -->
             <div class="stat-card">
                <div class="order-info">
-                  <h3>Jane Smith</h3>
+                  <h3>Tom Stomp</h3>
                   <p>Placed on: <span>2024-05-24</span></p>
-                  <p>Number: <span>0987654321</span></p>
-                  <p>Address: <span>456 Another St, City, Country</span></p>
+                  <p>Number: <span>+27 12 345 6789</span></p>
+                  <p>Address: <span>123 Naar Street, KLaar, South Africa</span></p>
                   <p>Total Products: <span>5</span></p>
                   <p>Total Price: <span>R559.95</span></p>
                   <p>Payment Method: <span>PayPal</span></p>
@@ -75,10 +75,10 @@
             <!-- Example Order 3 -->
             <div class="stat-card">
                <div class="order-info">
-                  <h3>Mike Johnson</h3>
+                  <h3>Mannetjie Spannetjie</h3>
                   <p>Placed on: <span>2024-05-23</span></p>
-                  <p>Number: <span>1122334455</span></p>
-                  <p>Address: <span>789 Another Ave, City, Country</span></p>
+                  <p>Number: <span>+27 12 345 6789</span></p>
+                  <p>Address: <span>123 Sadel Street, Dadel, South Africa</span></p>
                   <p>Total Products: <span>2</span></p>
                   <p>Total Price: <span>R223.98</span></p>
                   <p>Payment Method: <span>Cash on Delivery</span></p>

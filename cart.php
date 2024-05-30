@@ -23,7 +23,7 @@
 
       <!-- Example Product 1 -->
       <div class="cart-item">
-         <img src="images/product-1.jpg" alt="Product 1" class="cart-image">
+         <img src="assets/images/product-1.jpg" alt="Product 1" class="cart-image">
          <div class="cart-info">
             <div class="cart-name">Product 1</div>
             <div class="cart-flex">
@@ -37,7 +37,7 @@
 
       <!-- Example Product 2 -->
       <div class="cart-item">
-         <img src="images/product-2.jpg" alt="Product 2" class="cart-image">
+         <img src="assets/images/product-2.jpg" alt="Product 2" class="cart-image">
          <div class="cart-info">
             <div class="cart-name">Product 2</div>
             <div class="cart-flex">
@@ -51,7 +51,7 @@
 
       <!-- Example Product 3 -->
       <div class="cart-item">
-         <img src="images/product-3.jpg" alt="Product 3" class="cart-image">
+         <img src="assets/images/product-3.jpg" alt="Product 3" class="cart-image">
          <div class="cart-info">
             <div class="cart-name">Product 3</div>
             <div class="cart-flex">

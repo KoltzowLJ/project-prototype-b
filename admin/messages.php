@@ -26,10 +26,10 @@
             <!-- Example Message 1 -->
             <div class="stat-card">
                <div class="message-info">
-                  <h3>John Doe</h3>
+                  <h3>Rob Sob</h3>
                   <p>User ID: <span>1</span></p>
-                  <p>Email: <span>johndoe@example.com</span></p>
-                  <p>Number: <span>1234567890</span></p>
+                  <p>Email: <span>rob.sob@example.com</span></p>
+                  <p>Number: <span>+27 12 345 6789</span></p>
                   <p>Message: <span>Hello, I have a question about...</span></p>
                </div>
                <div class="message-actions">
@@ -40,10 +40,10 @@
             <!-- Example Message 2 -->
             <div class="stat-card">
                <div class="message-info">
-                  <h3>Jane Smith</h3>
+                  <h3>Barel Rarrel</h3>
                   <p>User ID: <span>2</span></p>
-                  <p>Email: <span>janesmith@example.com</span></p>
-                  <p>Number: <span>0987654321</span></p>
+                  <p>Email: <span>barel.rarrel@example.com</span></p>
+                  <p>Number: <span>+27 12 345 6789</span></p>
                   <p>Message: <span>I need help with my order...</span></p>
                </div>
                <div class="message-actions">
@@ -54,10 +54,10 @@
             <!-- Example Message 3 -->
             <div class="stat-card">
                <div class="message-info">
-                  <h3>Mike Johnson</h3>
+                  <h3>Ben Ten</h3>
                   <p>User ID: <span>3</span></p>
-                  <p>Email: <span>mikejohnson@example.com</span></p>
-                  <p>Number: <span>1122334455</span></p>
+                  <p>Email: <span>ben.ten@example.com</span></p>
+                  <p>Number: <span>+27 12 345 6789</span></p>
                   <p>Message: <span>Can you provide more details about...</span></p>
                </div>
                <div class="message-actions">

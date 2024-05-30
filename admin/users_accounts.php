@@ -21,9 +21,9 @@
             <!-- Example User Account 1 -->
             <div class="account-card">
                <div class="account-info">
-                  <h2>John Doe</h2>
+                  <h2>Barel Rarrel</h2>
                   <p>User ID: <span>1</span></p>
-                  <p>Email: <span>johndoe@example.com</span></p>
+                  <p>Email: <span>barel.rarrel@example.com</span></p>
                </div>
                <div class="account-actions">
                   <a href="users_accounts.php?delete=1" onclick="return confirm('delete this account? The user-related information will also be deleted!')" class="btn btn-danger">Delete</a>
@@ -33,9 +33,9 @@
             <!-- Example User Account 2 -->
             <div class="account-card">
                <div class="account-info">
-                  <h2>Jane Smith</h2>
+                  <h2>Sarie Klarie</h2>
                   <p>User ID: <span>2</span></p>
-                  <p>Email: <span>janesmith@example.com</span></p>
+                  <p>Email: <span>sarie.klarie@example.com</span></p>
                </div>
                <div class="account-actions">
                   <a href="users_accounts.php?delete=2" onclick="return confirm('delete this account? The user-related information will also be deleted!')" class="btn btn-danger">Delete</a>
@@ -45,9 +45,9 @@
             <!-- Example User Account 3 -->
             <div class="account-card">
                <div class="account-info">
-                  <h2>Mike Johnson</h2>
+                  <h2>Ben Ten</h2>
                   <p>User ID: <span>3</span></p>
-                  <p>Email: <span>mikejohnson@example.com</span></p>
+                  <p>Email: <span>ben.ten@example.com</span></p>
                </div>
                <div class="account-actions">
                   <a href="users_accounts.php?delete=3" onclick="return confirm('delete this account? The user-related information will also be deleted!')" class="btn btn-danger">Delete</a>
@@ -57,9 +57,9 @@
             <!-- Example User Account 4 -->
             <div class="account-card">
                <div class="account-info">
-                  <h2>Emily Davis</h2>
+                  <h2>Pieter Sielie</h2>
                   <p>User ID: <span>4</span></p>
-                  <p>Email: <span>emilydavis@example.com</span></p>
+                  <p>Email: <span>pieter.sielie@example.com</span></p>
                </div>
                <div class="account-actions">
                   <a href="users_accounts.php?delete=4" onclick="return confirm('delete this account? The user-related information will also be deleted!')" class="btn btn-danger">Delete</a>

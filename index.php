@@ -27,7 +27,7 @@
    <div class="products-grid">
       <!-- Product 1 -->
       <div class="product-card">
-         <img src="images/product-1.jpg" alt="Product 1" class="product-image">
+         <img src="assets/images/product-1.jpg" alt="Product 1" class="product-image">
          <div class="content">
             <h3 class="product-title">Product 1</h3>
             <p class="product-description">This will be product 1.</p>
@@ -37,7 +37,7 @@
       </div>
       <!-- Product 2 -->
       <div class="product-card">
-         <img src="images/product-2.jpg" alt="Product 2" class="product-image">
+         <img src="assets/images/product-2.jpg" alt="Product 2" class="product-image">
          <div class="content">
             <h3 class="product-title">Product 2</h3>
             <p class="product-description">This will be product 2.</p>
@@ -47,7 +47,7 @@
       </div>
       <!-- Product 3 -->
       <div class="product-card">
-         <img src="images/product-3.jpg" alt="Product 3" class="product-image">
+         <img src="assets/images/product-3.jpg" alt="Product 3" class="product-image">
          <div class="content">
             <h3 class="product-title">Product 3</h3>
             <p class="product-description">This will be product 3.</p>
@@ -57,7 +57,7 @@
       </div>
       <!-- Product 4 -->
       <div class="product-card">
-         <img src="images/product-4.jpg" alt="Product 4" class="product-image">
+         <img src="assets/images/product-4.jpg" alt="Product 4" class="product-image">
          <div class="content">
             <h3 class="product-title">Product 4</h3>
             <p class="product-description">This will be product 4.</p>

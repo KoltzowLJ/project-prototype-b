@@ -57,11 +57,11 @@
          <h1 class="heading">Products Added</h1>
          <div class="stats-list">
             <div class="stat-card">
-               <img src="../uploaded_img/example1.jpg" alt="Product Image">
+               <img src="../assets/images/product-1.jpg" alt="Product Image">
                <div class="content">
-                  <h3 class="name">Example Product 1</h3>
-                  <p class="price">$100</p>
-                  <p class="details">Example details about product 1</p>
+                  <h3 class="name">Product 1</h3>
+                  <p class="price">R111.99</p>
+                  <p class="details">Details about product 1</p>
                </div>
                <div class="action-buttons">
                   <a href="update_product.php?update=1" class="btn btn-secondary">Update</a>
@@ -69,11 +69,11 @@
                </div>
             </div>
             <div class="stat-card">
-               <img src="../uploaded_img/example2.jpg" alt="Product Image">
+               <img src="../assets/images/product-2.jpg" alt="Product Image">
                <div class="content">
-                  <h3 class="name">Example Product 2</h3>
-                  <p class="price">$200</p>
-                  <p class="details">Example details about product 2</p>
+                  <h3 class="name">Product 2</h3>
+                  <p class="price">R111.99</p>
+                  <p class="details">Details about product 2</p>
                </div>
                <div class="action-buttons">
                   <a href="update_product.php?update=2" class="btn btn-secondary">Update</a>
@@ -81,11 +81,11 @@
                </div>
             </div>
             <div class="stat-card">
-               <img src="../uploaded_img/example3.jpg" alt="Product Image">
+               <img src="../assets/images/product-3.jpg" alt="Product Image">
                <div class="content">
-                  <h3 class="name">Example Product 3</h3>
-                  <p class="price">$300</p>
-                  <p class="details">Example details about product 3</p>
+                  <h3 class="name">Product 3</h3>
+                  <p class="price">R111.99</p>
+                  <p class="details">Details about product 3</p>
                </div>
                <div class="action-buttons">
                   <a href="update_product.php?update=3" class="btn btn-secondary">Update</a>

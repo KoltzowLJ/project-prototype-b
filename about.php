@@ -19,10 +19,10 @@
       <h1 class="heading">About Us</h1>
       <div class="about-content">
          <div class="image">
-            <img src="images/about-img.svg" alt="About Image">
+            <img src="assets/images/about-img.jpg" alt="About Image">
          </div>
          <div class="text">
-            <p>The information about the business will come here. This should be a detailed description that talks about the company's history, mission, vision, and values. You can also include some interesting facts and figures to make it more engaging.</p>
+            <p>This will be information of the company here: </p>
             <a href="contact.php" class="btn btn-primary">Contact Us</a>
          </div>
       </div>
@@ -33,24 +33,28 @@
    <div class="container">
       <h2 class="heading">Our Team</h2>
       <div class="team-grid">
+
          <!-- Team Member 1 -->
          <div class="team-member">
-            <img src="images/team-member-1.jpg" alt="Team Member 1">
-            <h3>John Doe</h3>
+            <img src="assets/images/team-member-1.jpg" alt="Team Member 1">
+            <h3>Person 1</h3>
             <p>CEO</p>
          </div>
+
          <!-- Team Member 2 -->
          <div class="team-member">
-            <img src="images/team-member-2.jpg" alt="Team Member 2">
-            <h3>Jane Smith</h3>
+            <img src="assets/images/team-member-2.jpg" alt="Team Member 2">
+            <h3>Person 2</h3>
             <p>CTO</p>
          </div>
+
          <!-- Team Member 3 -->
          <div class="team-member">
-            <img src="images/team-member-3.jpg" alt="Team Member 3">
-            <h3>Robert Brown</h3>
+            <img src="assets/images/team-member-3.jpg" alt="Team Member 3">
+            <h3>Person 3</h3>
             <p>COO</p>
          </div>
+
       </div>
    </div>
 </section>

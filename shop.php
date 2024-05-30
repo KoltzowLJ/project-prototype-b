@@ -20,7 +20,7 @@
    <div class="products-grid">
       <!-- Example Product 1 -->
       <form action="" method="post" class="product-card">
-         <img src="images/product-1.jpg" alt="Product 1" class="product-image">
+         <img src="assets/images/product-1.jpg" alt="Product 1" class="product-image">
          <div class="content">
             <h3 class="product-name">Product 1</h3>
             <div class="flex">
@@ -32,7 +32,7 @@
       </form>
       <!-- Example Product 2 -->
       <form action="" method="post" class="product-card">
-         <img src="images/product-2.jpg" alt="Product 2" class="product-image">
+         <img src="assets/images/product-2.jpg" alt="Product 2" class="product-image">
          <div class="content">
             <h3 class="product-name">Product 2</h3>
             <div class="flex">
@@ -44,7 +44,7 @@
       </form>
       <!-- Example Product 3 -->
       <form action="" method="post" class="product-card">
-         <img src="images/product-3.jpg" alt="Product 3" class="product-image">
+         <img src="assets/images/product-3.jpg" alt="Product 3" class="product-image">
          <div class="content">
             <h3 class="product-name">Product 3</h3>
             <div class="flex">
@@ -56,7 +56,7 @@
       </form>
       <!-- Example Product 4 -->
       <form action="" method="post" class="product-card">
-         <img src="images/product-4.jpg" alt="Product 4" class="product-image">
+         <img src="assets/images/product-4.jpg" alt="Product 4" class="product-image">
          <div class="content">
             <h3 class="product-name">Product 4</h3>
             <div class="flex">
