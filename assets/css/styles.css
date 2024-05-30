@@ -1,0 +1,498 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+.btn-primary {
+    background-color: #3498DB;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #2980B9;
+}
+
+.option-btn {
+    background-color: #3498DB;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option-btn:hover {
+    background-color: #2980B9;
+}
+
+.delete-btn {
+    background-color: #E74C3C;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #C0392B;
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #3498DB;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+#search-button:hover {
+    background-color: #2980B9;
+}
+
+/* Home Products */
+.home-products {
+    padding: 20px;
+}
+
+.products-grid, .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card, .team-member, .order-card, .cart-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.product-card:hover, .cart-item:hover, .order-card:hover, .team-member:hover {
+    transform: translateY(-10px);
+}
+
+.product-image, .team-member img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content, .text, .order-body, .cart-info {
+    padding: 20px;
+}
+
+/* Product Specific Styles */
+.product-title, .cart-name, .product-name, .team-member h3 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+.product-description {
+    font-size: 1em;
+    margin: 0 0 10px 0;
+    color: #777;
+}
+
+.price, .cart-price, .grand-total, .order-body span {
+    font-size: 1.2em;
+    color: #E74C3C;
+    margin: 0 0 10px 0;
+}
+
+.flex, .cart-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+/* Input Fields */
+.qty, .cart-qty, .inputBox .box {
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+textarea.box {
+    resize: vertical;
+}
+
+/* Checkout Orders */
+.checkout-orders, .contact, .form-container, .orders, .about, .team {
+    padding: 20px;
+}
+
+.display-orders, .order-header, .cart-total, .order-card {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.display-orders p, .order-body p {
+    font-size: 1.2em;
+    margin: 0 0 10px;
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.order-header h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.order-date {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.status.completed {
+    background-color: #28a745;
+}
+
+.status.pending {
+    background-color: #dc3545;
+}
+
+.grand-total {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.form-container .container, .container .update-form, .container .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBox label {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #3498DB;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #3498DB;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons .fas {
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.icons .fas:hover {
+    color: #3498DB;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    display: none;
+}
+
+.profile p {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.profile .btn {
+    margin-top: 10px;
+}
+
+.message {
+    background-color: #3498DB;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.message .fas {
+    cursor: pointer;
+}
+
+/* Toggle profile visibility */
+#user-btn:active + .profile {
+    display: flex;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.footer .box h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.footer .box a {
+    display: block;
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer .box a i {
+    margin-right: 10px;
+}
+
+.footer .box a:hover {
+    color: #3498DB;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 1.2em;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #3498DB;
+}
+
+.footer-credit {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.footer-credit span {
+    color: #3498DB;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #3498DB;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #3498DB;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons .fas {
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #fff; /* Set default color to white */
+    transition: color 0.3s;
+}
+
+.icons .fas:hover {
+    color: #3498DB;
+}
+
+.message {
+    background-color: #3498DB;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.message .fas {
+    cursor: pointer;
+}
+
+/* Toggle profile visibility */
+#user-btn:active + .profile {
+    display: flex;
+}
+
